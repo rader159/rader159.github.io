@@ -4,7 +4,7 @@
         <div class="text-center mb-20">
             <i class="fa-solid fa-eye text-4xl text-twilight-accent mb-4"></i>
             <h2 class="text-3xl md:text-4xl font-fantasy text-white font-bold mb-4">플레이 미리보기</h2>
-            <p class="text-gray-400">우리의 이야기는 대화와 탐험, 그리고 디테일로 완성됩니다.</p>
+            <p class="text-gray-400">우리의 이야기는 대화와 탐험, 그리고 치열한 전투로 완성됩니다.</p>
             <div class="w-24 h-1 bg-gradient-to-r from-twilight-dark to-dnd-gold mx-auto mt-4"></div>
         </div>
 
@@ -14,7 +14,7 @@
             <!-- 1. 커뮤니케이션 씬 (Communication) -->
             <div class="relative group">
                 <div class="grid lg:grid-cols-2 gap-12 items-center">
-                    <!-- 이미지 영역 -->
+                    <!-- 이미지 영역 (좌측 배치) -->
                     <div class="relative rounded-lg overflow-hidden border border-gray-700 shadow-[0_0_30px_rgba(139,92,246,0.15)] group-hover:shadow-[0_0_30px_rgba(139,92,246,0.4)] transition-all duration-500 order-2 lg:order-1">
                         <div class="absolute inset-0 bg-gradient-to-t from-dnd-dark/80 via-transparent to-transparent z-10"></div>
                         <img src="커뮤니케이션 씬.png" alt="Communication Scene" class="w-full h-auto object-cover transform group-hover:scale-105 transition-transform duration-700">
@@ -48,7 +48,7 @@
             <!-- 2. 탐사 씬 (Exploration) -->
             <div class="relative group">
                 <div class="grid lg:grid-cols-2 gap-12 items-center">
-                    <!-- 텍스트 설명 영역 -->
+                    <!-- 텍스트 설명 영역 (좌측 배치) -->
                     <div class="space-y-6">
                         <div class="inline-block px-3 py-1 text-xs font-bold tracking-wider text-dnd-gold border border-dnd-gold rounded-full mb-2">EXPLORATION</div>
                         <h3 class="text-3xl font-fantasy text-white font-bold">미지의 세계를 향한<br>발걸음</h3>
@@ -79,7 +79,41 @@
                 </div>
             </div>
 
-            <!-- 3. 토큰 타입 소개 (Tokens) -->
+            <!-- 3. 전투 씬 (Combat) - 새로 추가됨 -->
+            <div class="relative group">
+                <div class="grid lg:grid-cols-2 gap-12 items-center">
+                    <!-- 이미지 영역 (좌측 배치) -->
+                    <div class="relative rounded-lg overflow-hidden border border-gray-700 shadow-[0_0_30px_rgba(220,38,38,0.15)] group-hover:shadow-[0_0_30px_rgba(220,38,38,0.4)] transition-all duration-500 order-2 lg:order-1">
+                        <div class="absolute inset-0 bg-gradient-to-t from-dnd-dark/80 via-transparent to-transparent z-10"></div>
+                        <img src="전투씬.png" alt="Combat Scene" class="w-full h-auto object-cover transform group-hover:scale-105 transition-transform duration-700">
+                        <div class="absolute bottom-4 left-4 z-20 flex items-center text-white">
+                            <i class="fa-solid fa-khanda text-2xl mr-3 text-dnd-red"></i>
+                            <div>
+                                <p class="font-bold text-sm">Strategic Combat</p>
+                                <p class="text-xs text-gray-400">생사를 가르는 전략적 전투</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- 텍스트 설명 영역 -->
+                    <div class="space-y-6 order-1 lg:order-2 text-right lg:text-left">
+                        <div class="inline-block px-3 py-1 text-xs font-bold tracking-wider text-dnd-red border border-dnd-red rounded-full mb-2">COMBAT</div>
+                        <h3 class="text-3xl font-fantasy text-white font-bold">운명을 건<br>치열한 승부</h3>
+                        <p class="text-gray-400 leading-relaxed">
+                            말투가 통하지 않는 순간, 검과 마법이 답이 됩니다. 
+                            D&D 5판 규칙에 기반한 정교한 전투 시스템 위에서 
+                            <span class="text-white font-bold">동료들과의 연계</span>를 통해 강력한 적을 제압하세요.
+                        </p>
+                        <ul class="space-y-3 text-sm text-gray-500 inline-block text-left">
+                            <li class="flex items-center"><span class="w-2 h-2 bg-dnd-red rounded-full mr-3"></span>화려한 주문 효과와 타격감 있는 연출</li>
+                            <li class="flex items-center"><span class="w-2 h-2 bg-dnd-red rounded-full mr-3"></span>지형지물을 활용한 전술적 움직임</li>
+                            <li class="flex items-center"><span class="w-2 h-2 bg-dnd-red rounded-full mr-3"></span>위기의 순간, 주사위 하나에 운명을 겁니다.</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+            <!-- 4. 토큰 타입 소개 (Tokens) -->
             <div class="relative">
                 <div class="text-center mb-12">
                     <div class="inline-block px-3 py-1 text-xs font-bold tracking-wider text-white border border-white rounded-full mb-4">IMMERSION</div>
