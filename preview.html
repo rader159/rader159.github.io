@@ -1,0 +1,139 @@
+<section class="py-24 px-4 min-h-screen">
+    <div class="max-w-6xl mx-auto">
+        <!-- 헤더 -->
+        <div class="text-center mb-16">
+            <i class="fa-solid fa-eye text-4xl text-twilight-accent mb-4"></i>
+            <h2 class="text-3xl md:text-4xl font-fantasy text-white font-bold mb-4">플레이 미리보기</h2>
+            <p class="text-gray-400">우리의 모험은 이렇게 진행됩니다.</p>
+            <div class="w-24 h-1 bg-gradient-to-r from-twilight-dark to-dnd-gold mx-auto mt-4"></div>
+        </div>
+
+        <!-- 메인 콘텐츠: VTT & Discord -->
+        <div class="grid lg:grid-cols-2 gap-12 mb-20">
+            
+            <!-- 왼쪽: VTT 화면 예시 -->
+            <div class="space-y-6">
+                <div class="relative group rounded-lg overflow-hidden border border-gray-700 shadow-2xl">
+                    <!-- 가짜 VTT 인터페이스 -->
+                    <div class="bg-gray-900 p-2 flex items-center justify-between text-xs text-gray-400 border-b border-gray-700">
+                        <span>Roll20 Virtual Tabletop</span>
+                        <div class="flex space-x-2">
+                            <i class="fa-solid fa-dice-d20"></i>
+                            <i class="fa-solid fa-music"></i>
+                            <i class="fa-solid fa-gear"></i>
+                        </div>
+                    </div>
+                    <!-- 맵 이미지 (placeholder) -->
+                    <div class="relative">
+                        <img src="https://images.unsplash.com/photo-1615751263087-34444560737f?q=80&w=1000&auto=format&fit=crop" alt="Battle Map" class="w-full h-64 object-cover opacity-80 group-hover:opacity-100 transition-opacity duration-500">
+                        <!-- 토큰 예시 -->
+                        <div class="absolute top-1/2 left-1/3 w-8 h-8 bg-dnd-gold rounded-full border-2 border-white shadow-lg transform -translate-x-1/2 -translate-y-1/2 flex items-center justify-center text-black font-bold text-xs" title="Paladin">P</div>
+                        <div class="absolute top-1/2 left-1/2 w-10 h-10 bg-dnd-red rounded-full border-2 border-black shadow-lg transform -translate-x-1/2 -translate-y-1/2 flex items-center justify-center text-white font-bold" title="Boss">B</div>
+                        <div class="absolute top-1/2 left-2/3 w-8 h-8 bg-twilight-accent rounded-full border-2 border-white shadow-lg transform -translate-x-1/2 -translate-y-1/2 flex items-center justify-center text-white font-bold text-xs" title="Wizard">W</div>
+                    </div>
+                    
+                    <div class="absolute bottom-0 left-0 w-full bg-black/80 p-4 backdrop-blur-sm">
+                        <p class="text-dnd-gold font-fantasy text-sm">Combat & Exploration</p>
+                        <p class="text-gray-300 text-sm">전투와 던전 탐험은 Roll20 맵 위에서 시각적으로 진행됩니다.</p>
+                    </div>
+                </div>
+
+                <div class="bg-dnd-dark p-6 rounded-lg border border-gray-800">
+                    <h3 class="text-xl text-white font-bold mb-3 flex items-center">
+                        <i class="fa-solid fa-dice text-dnd-gold mr-3"></i>판정 방식
+                    </h3>
+                    <p class="text-gray-400 text-sm leading-relaxed">
+                        모든 주사위 굴림은 Roll20 내의 3D 주사위를 사용하거나 로그를 통해 공개적으로 확인합니다. 
+                        긴박한 순간, 모두가 숨죽여 결과를 지켜보는 그 찰나의 순간을 즐겨보세요.
+                    </p>
+                </div>
+            </div>
+
+            <!-- 오른쪽: 롤플레잉 예시 로그 -->
+            <div class="bg-dnd-grey/50 rounded-lg p-6 border border-gray-700 h-full flex flex-col">
+                <div class="flex items-center justify-between mb-6 border-b border-gray-700 pb-4">
+                    <div class="flex items-center text-twilight-accent">
+                        <i class="fa-brands fa-discord text-2xl mr-3"></i>
+                        <span class="font-bold">Voice & Roleplay</span>
+                    </div>
+                    <span class="text-xs text-green-500 flex items-center"><span class="w-2 h-2 bg-green-500 rounded-full mr-2 animate-pulse"></span>Online</span>
+                </div>
+
+                <!-- 채팅 로그 스타일 -->
+                <div class="space-y-4 text-sm flex-grow overflow-y-auto max-h-[400px] pr-2 custom-scrollbar">
+                    
+                    <!-- GM -->
+                    <div class="flex gap-3">
+                        <div class="w-8 h-8 rounded-full bg-gray-600 flex-shrink-0 flex items-center justify-center font-fantasy">GM</div>
+                        <div>
+                            <p class="text-dnd-gold font-bold text-xs mb-1">Dungeon Master</p>
+                            <p class="text-gray-300 bg-gray-800/50 p-3 rounded-r-lg rounded-bl-lg">
+                                여러분이 낡은 문을 열자, 차가운 바람과 함께 희미한 보랏빛 안개가 발밑으로 깔립니다. 
+                                방 중앙에는 시들지 않는 꽃 한 송이가 유리관 속에 잠들어 있습니다. 어떻게 하시겠습니까?
+                            </p>
+                        </div>
+                    </div>
+
+                    <!-- Player 1 -->
+                    <div class="flex gap-3">
+                        <div class="w-8 h-8 rounded-full bg-twilight-dark flex-shrink-0 flex items-center justify-center font-fantasy text-white">W</div>
+                        <div>
+                            <p class="text-twilight-accent font-bold text-xs mb-1">Wizard (알릭스)</p>
+                            <p class="text-gray-300 bg-gray-800/50 p-3 rounded-r-lg rounded-bl-lg">
+                                <span class="text-gray-500 italic block mb-1">*속삭이는 목소리로*</span>
+                                "이게... 전설로만 듣던 아이테르인가요?"<br>
+                                조심스럽게 다가가 마법적인 함정이 있는지 조사해보겠습니다. (Arcana Check)
+                            </p>
+                        </div>
+                    </div>
+
+                    <!-- System Message -->
+                    <div class="text-center my-2">
+                        <span class="bg-black/50 px-3 py-1 rounded text-xs text-gray-500 border border-gray-800">
+                            🎲 <span class="text-twilight-accent">알릭스</span>: Arcana (15) + 4 = <span class="text-white font-bold">19</span>
+                        </span>
+                    </div>
+
+                    <!-- Player 2 -->
+                    <div class="flex gap-3">
+                        <div class="w-8 h-8 rounded-full bg-dnd-red flex-shrink-0 flex items-center justify-center font-fantasy text-white">F</div>
+                        <div>
+                            <p class="text-red-400 font-bold text-xs mb-1">Fighter (발데르)</p>
+                            <p class="text-gray-300 bg-gray-800/50 p-3 rounded-r-lg rounded-bl-lg">
+                                알릭스가 조사하는 동안 방패를 들고 주변을 경계합니다. 어둠 속에서 무언가 튀어나올 것 같은 기분이 들어서요.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- 하단: 오디오/비주얼 설명 -->
+        <div class="bg-gradient-to-r from-dnd-dark via-twilight-dark/10 to-dnd-dark p-8 rounded-lg text-center border border-gray-800">
+            <h3 class="text-2xl font-fantasy text-white mb-6">몰입을 위한 장치들</h3>
+            <div class="grid md:grid-cols-3 gap-8">
+                <div>
+                    <i class="fa-solid fa-music text-3xl text-dnd-gold mb-4"></i>
+                    <h4 class="font-bold text-white mb-2">BGM & Sound</h4>
+                    <p class="text-sm text-gray-400">상황에 맞는 배경음악과 효과음으로 현장감을 더합니다.</p>
+                </div>
+                <div>
+                    <i class="fa-solid fa-image text-3xl text-dnd-gold mb-4"></i>
+                    <h4 class="font-bold text-white mb-2">Visual Arts</h4>
+                    <p class="text-sm text-gray-400">주요 NPC와 장소, 아이템의 이미지를 시각 자료로 제공합니다.</p>
+                </div>
+                <div>
+                    <i class="fa-solid fa-book-journal-whills text-3xl text-dnd-gold mb-4"></i>
+                    <h4 class="font-bold text-white mb-2">Shared Journal</h4>
+                    <p class="text-sm text-gray-400">중요한 단서와 인물 정보는 핸드아웃으로 정리하여 공유합니다.</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="text-center mt-12">
+            <a href="#apply" class="inline-block px-8 py-3 rounded border border-twilight-accent text-twilight-accent hover:bg-twilight-accent hover:text-white transition-all duration-300 font-bold">
+                이 모험에 참여하기
+            </a>
+        </div>
+    </div>
+</section>
