@@ -79,7 +79,7 @@
                 </div>
             </div>
 
-            <!-- 3. 전투 씬 (Combat) - 새로 추가됨 -->
+            <!-- 3. 전투 씬 (Combat) -->
             <div class="relative group">
                 <div class="grid lg:grid-cols-2 gap-12 items-center">
                     <!-- 이미지 영역 (좌측 배치) -->
@@ -101,7 +101,7 @@
                         <h3 class="text-3xl font-fantasy text-white font-bold">운명을 건<br>치열한 승부</h3>
                         <p class="text-gray-400 leading-relaxed">
                             말투가 통하지 않는 순간, 검과 마법이 답이 됩니다. 
-                            D&D 2024 규칙에 기반한 정교한 전투 시스템 위에서 
+                            D&D 5판 규칙에 기반한 정교한 전투 시스템 위에서 
                             <span class="text-white font-bold">동료들과의 연계</span>를 통해 강력한 적을 제압하세요.
                         </p>
                         <ul class="space-y-3 text-sm text-gray-500 inline-block text-left">
@@ -113,51 +113,51 @@
                 </div>
             </div>
 
-            <!-- 4. 토큰 타입 소개 (Tokens) -->
+            <!-- 4. 토큰 타입 소개 (Tokens) - 3열 그리드 적용 -->
             <div class="relative">
                 <div class="text-center mb-12">
                     <div class="inline-block px-3 py-1 text-xs font-bold tracking-wider text-white border border-white rounded-full mb-4">IMMERSION</div>
                     <h3 class="text-3xl font-fantasy text-white font-bold">상황에 맞는 토큰 사용</h3>
                     <p class="text-gray-400 mt-4 max-w-2xl mx-auto leading-relaxed">
                         상황에 따라 세 가지 스타일의 토큰을 교체하며 사용합니다.<br>
-                        대화할 때는 인물의 매력을, 전투할 때는 전술적 명확성을 추구합니다.
+                        대화할 때는 인물의 매력을, 탐험할 때는 귀여움을, 전투할 때는 전술적 명확성을 추구합니다.
                     </p>
                 </div>
 
-                <div class="grid md:grid-cols-2 gap-8 max-w-4xl mx-auto">
+                <div class="grid md:grid-cols-3 gap-6 max-w-6xl mx-auto">
                     <!-- 전신 일러스트 카드 -->
-                    <div class="bg-dnd-grey/30 rounded-xl p-8 border border-gray-700 hover:border-twilight-accent transition-all duration-300 text-center group">
-                        <div class="relative w-full aspect-[3/4] rounded-lg overflow-hidden mb-6 mx-auto bg-black/40 shadow-inner">
+                    <div class="bg-dnd-grey/30 rounded-xl p-6 border border-gray-700 hover:border-twilight-accent transition-all duration-300 text-center group">
+                        <div class="relative w-full aspect-[3/4] rounded-lg overflow-hidden mb-4 mx-auto bg-black/40 shadow-inner">
                             <div class="absolute inset-0 bg-gradient-to-t from-black/80 to-transparent z-10 opacity-60 group-hover:opacity-40 transition-opacity"></div>
                             <img src="전신.png" alt="Full Body Token" class="w-full h-full object-contain transform group-hover:scale-105 transition-transform duration-500">
                         </div>
-                        <h4 class="text-xl font-bold text-twilight-accent mb-2 font-fantasy">Portrait & Roleplay</h4>
-                        <p class="text-sm text-gray-400 leading-relaxed">
-                            대화나 이벤트 장면에서는 캐릭터의 표정과 복장이 잘 드러나는 <span class="text-white">전신 일러스트</span>를 사용하여 드라마틱한 연출을 돕습니다.
+                        <h4 class="text-lg font-bold text-twilight-accent mb-2 font-fantasy">Portrait & Roleplay</h4>
+                        <p class="text-xs text-gray-400 leading-relaxed">
+                            깊은 감정선이 오가는 대화나 중요 이벤트 장면에서는 캐릭터의 전신 일러스트를 사용하여 몰입도를 높입니다.
                         </p>
                     </div>
 
-                                        <!-- 탐사 콘 -->
-                    <div class="bg-dnd-grey/30 rounded-xl p-8 border border-gray-700 hover:border-twilight-accent transition-all duration-300 text-center group">
-                        <div class="relative w-full aspect-[3/4] rounded-lg overflow-hidden mb-6 mx-auto bg-black/40 shadow-inner">
-                            <div class="absolute inset-0 bg-gradient-to-t from-black/80 to-transparent z-10 opacity-60 group-hover:opacity-40 transition-opacity"></div>
-                            <img src="탐사.png" alt="Full Body Token" class="w-full h-full object-contain transform group-hover:scale-105 transition-transform duration-500">
-                        </div> 
-                        <h4 class="text-xl font-bold text-twilight-accent mb-2 font-fantasy">Explration</h4>
-                        <p class="text-sm text-gray-400 leading-relaxed">
-                            탐험 모드에서는 귀여운<span class="text-white">SD 캐릭터(아바타)</span>로  맵을 누비게 됩니다.
+                    <!-- 탐사 아바타 카드 (새로 추가됨) -->
+                    <div class="bg-dnd-grey/30 rounded-xl p-6 border border-gray-700 hover:border-white transition-all duration-300 text-center group">
+                        <div class="relative w-full aspect-[3/4] rounded-lg overflow-hidden mb-4 mx-auto bg-black/40 shadow-inner flex items-center justify-center p-4">
+                            <div class="absolute inset-0 bg-[url('https://www.transparenttextures.com/patterns/cubes.png')] opacity-5"></div>
+                            <img src="탐사.png" alt="Exploration Avatar" class="w-full h-auto object-contain transform group-hover:scale-110 transition-transform duration-500 drop-shadow-[0_5px_5px_rgba(255,255,255,0.2)]">
+                        </div>
+                        <h4 class="text-lg font-bold text-white mb-2 font-fantasy">Exploration Avatar</h4>
+                        <p class="text-xs text-gray-400 leading-relaxed">
+                            광활한 맵을 자유롭게 탐험할 때는 귀여운 SD 스타일의 아바타를 사용하여, 가볍고 즐거운 모험의 느낌을 더합니다.
                         </p>
                     </div>
 
                     <!-- 탑뷰 토큰 카드 -->
-                    <div class="bg-dnd-grey/30 rounded-xl p-8 border border-gray-700 hover:border-dnd-gold transition-all duration-300 text-center group">
-                         <div class="relative w-full aspect-[3/4] rounded-lg overflow-hidden mb-6 mx-auto bg-black/40 shadow-inner flex items-center justify-center p-4">
+                    <div class="bg-dnd-grey/30 rounded-xl p-6 border border-gray-700 hover:border-dnd-gold transition-all duration-300 text-center group">
+                         <div class="relative w-full aspect-[3/4] rounded-lg overflow-hidden mb-4 mx-auto bg-black/40 shadow-inner flex items-center justify-center p-4">
                             <div class="absolute inset-0 bg-[url('https://www.transparenttextures.com/patterns/cubes.png')] opacity-10"></div>
                             <img src="전투 탑뷰.png" alt="Top Down Token" class="w-full h-auto object-contain transform group-hover:scale-110 group-hover:rotate-3 transition-transform duration-500 drop-shadow-[0_10px_10px_rgba(0,0,0,0.5)]">
                         </div>
-                        <h4 class="text-xl font-bold text-dnd-gold mb-2 font-fantasy">Tactical Top-Down</h4>
-                        <p class="text-sm text-gray-400 leading-relaxed">
-                            전투 시에는 위에서 내려다본 형태의 <span class="text-white">탑뷰 토큰</span>을 사용하여, 캐릭터의 위치와 시야각, 사거리를 직관적으로 파악합니다.
+                        <h4 class="text-lg font-bold text-dnd-gold mb-2 font-fantasy">Tactical Top-Down</h4>
+                        <p class="text-xs text-gray-400 leading-relaxed">
+                            일촉즉발의 전투 상황에서는 위에서 내려다본 탑뷰 토큰으로 교체하여, 전술적 위치와 시야를 명확하게 파악합니다.
                         </p>
                     </div>
                 </div>
@@ -174,8 +174,3 @@
         </div>
     </div>
 </section>
-
-
-
-
-
