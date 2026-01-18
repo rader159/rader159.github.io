@@ -1,27 +1,43 @@
-<section class="py-24 px-4 relative min-h-screen flex items-center">
+<section class="py-24 px-4 relative min-h-screen">
     <!-- 배경 효과 -->
     <div class="absolute top-10 right-0 w-64 h-64 bg-twilight-accent/10 rounded-full blur-3xl -z-10"></div>
     <div class="absolute bottom-10 left-0 w-64 h-64 bg-dnd-gold/5 rounded-full blur-3xl -z-10"></div>
 
     <div class="max-w-6xl mx-auto w-full">
+        <!-- 1. 메인 스토리 섹션 -->
         <div class="text-center mb-16">
             <i class="fa-solid fa-book-open text-4xl text-twilight-accent mb-4"></i>
             <h2 class="text-3xl md:text-4xl font-fantasy text-white font-bold mb-4">이야기의 시작</h2>
             <div class="w-24 h-1 bg-gradient-to-r from-twilight-dark to-dnd-gold mx-auto"></div>
         </div>
 
-        <div class="grid md:grid-cols-2 gap-12 items-center">
+        <!-- 펠리그로 풍경 묘사 섹션 -->
+        <div class="relative py-16 px-8 mb-24 bg-dnd-grey/20 rounded-lg border border-dnd-gold/10 text-center overflow-hidden">
+             <!-- 은은한 배경 장식 -->
+             <div class="absolute -top-10 -left-10 w-40 h-40 bg-dnd-gold/10 rounded-full blur-3xl"></div>
+             <div class="absolute -bottom-10 -right-10 w-40 h-40 bg-twilight-accent/10 rounded-full blur-3xl"></div>
+
+             <i class="fa-solid fa-wind text-3xl text-gray-500 mb-6 block animate-pulse"></i>
+             <p class="text-lg md:text-xl font-serif italic text-gray-300 leading-loose max-w-4xl mx-auto">
+                "끝없이 펼쳐진 황금빛 밀밭이 바람을 따라 일렁이고, 거대한 풍차 날개가 느긋하게 하늘을 젓는 평화의 땅, 펠리그로.<br>
+                석양빛을 머금은 들판은 대륙에서 가장 따스한 안식을 품고 있으며, 대지를 적시는 강물은 풍요의 노래를 부릅니다.<br>
+                하지만 가장 눈부신 빛 아래 가장 짙은 그림자가 드리우듯,<br>
+                평화로워 보이는 이 풍경 너머로 알 수 없는 운명의 수레바퀴가 서서히 굴러가기 시작했습니다."
+             </p>
+        </div>
+
+        <div class="grid md:grid-cols-2 gap-12 items-center mb-24">
             <div class="relative group">
                 <div class="absolute -inset-1 bg-gradient-to-r from-twilight-accent to-dnd-gold rounded-lg blur opacity-25 group-hover:opacity-75 transition duration-1000 group-hover:duration-200"></div>
                 <div class="relative bg-dnd-grey p-2 rounded-lg shadow-2xl">
-                    <img src="https://i.imgur.com/8PQ7DiE.jpeg" alt="Mystic Glowing Flower" class="rounded w-full h-auto object-cover grayscale-[30%] group-hover:grayscale-0 transition-all duration-500">
+                    <img src="http://googleusercontent.com/image_generation_content/0" alt="루미네의 꽃" class="rounded w-full h-auto object-cover grayscale-[20%] group-hover:grayscale-0 transition-all duration-500">
                 </div>
             </div>
             <div class="space-y-6">
                 <h3 class="text-2xl text-dnd-gold font-fantasy border-b border-gray-700 pb-2 inline-block">마지막 선물, '루미네의 꽃'</h3>
                 <p class="leading-relaxed text-gray-300">
                     왕국의 태양이 저물어가듯, 국왕의 생명 또한 사그라들고 있습니다. 
-                    공주는 왕과의 마지막 작별을 위해 <span class="text-twilight-accent font-bold">어릴 적 보았던 전설의 꽃</span>'루미네의 꽃'을 찾으러 갑니다.
+                    공주는 왕과의 마지막 작별을 위해 <span class="text-twilight-accent font-bold">어릴 적 보았던 전설의 꽃</span> '루미네의 꽃'을 찾으러 갑니다.
                 </p>
                 <p class="leading-relaxed text-gray-300">
                     왕궁의 높은 담을 넘어, 지도 밖의 세상으로 향하는 비밀스러운 발걸음.
@@ -29,21 +45,119 @@
                     어둠이 내려앉는 숲과 잊혀진 유적들을 지나, 공주를 지켜줄 검과 마법이 필요합니다.
                 </p>
                 <div class="bg-gradient-to-r from-twilight-dark/40 to-transparent p-6 rounded-l-lg border-l-4 border-twilight-accent">
-                    <p class="italic text-gray-200 font-serif">"이 작별이 대단한게 아니란 것 정도는 알고 있어요. 하지만 마지막 정도는 후회는 없이 보내드리고 싶어요. 그게 욕심인가요?"</p>
+                    <p class="italic text-gray-200 font-serif">"이 작별이 대단한게 아니란 것 정도는 알고 있어요. 하지만 후회는 없이 보내드리고 싶어요."</p>
                     <p class="text-right text-sm text-dnd-gold mt-3 font-bold">- 여정을 준비하는 공주</p>
+                </div>
+            </div>
+        </div>
+
+        <!-- 구분선 -->
+        <div class="w-full h-px bg-gradient-to-r from-transparent via-gray-700 to-transparent mb-16"></div>
+
+        <!-- 2. 세계관 배경 섹션 (제목 변경 및 영문 삭제) -->
+        <div class="text-center mb-16">
+            <i class="fa-solid fa-earth-americas text-4xl text-dnd-gold mb-4"></i>
+            <h2 class="text-3xl md:text-4xl font-fantasy text-white font-bold mb-4">이야기의 무대</h2>
+            <p class="text-gray-400">모험이 펼쳐지는 대륙을 움직이는 거대한 세력들입니다.</p>
+            <div class="w-24 h-1 bg-gradient-to-r from-dnd-gold to-twilight-dark mx-auto mt-4"></div>
+        </div>
+
+        <!-- 국가 그리드 -->
+        <div class="grid md:grid-cols-2 gap-8 mb-16">
+            
+            <!-- 국가 1: 펠리그로 (가장 위로 이동) -->
+            <div class="bg-dnd-dark rounded-xl border border-gray-800 hover:border-green-600/50 transition-all duration-300 overflow-hidden group">
+                <div class="bg-gradient-to-r from-green-900/30 to-dnd-dark p-4 border-b border-gray-800 flex justify-between items-center">
+                    <h3 class="text-xl font-fantasy text-white font-bold">풍차의 펠리그로</h3>
+                    <i class="fa-solid fa-wheat-awn text-green-400 text-xl"></i>
+                </div>
+                <div class="p-6 space-y-4">
+                    <p class="text-sm text-gray-300 leading-relaxed">
+                        끝없이 펼쳐진 황금빛 밀밭과 느긋하게 돌아가는 풍차가 상징적인, 대륙의 곡창지대입니다. 비옥한 대지의 축복을 받아 풍요롭고, 예술과 낭만을 사랑하는 사람들이 모여 사는 아름다운 나라입니다.
+                    </p>
+                    <p class="text-sm text-gray-300 leading-relaxed">
+                        따스한 햇살 아래 평화로운 전원 풍경이 펼쳐져 있어, 지친 여행자들에게 가장 안락한 휴식을 제공하는 곳으로 알려져 있습니다.
+                    </p>
+                </div>
+            </div>
+
+            <!-- 국가 2: 셰리스 왕국 -->
+            <div class="bg-dnd-dark rounded-xl border border-gray-800 hover:border-indigo-500/50 transition-all duration-300 overflow-hidden group">
+                <div class="bg-gradient-to-r from-indigo-900/40 to-dnd-dark p-4 border-b border-gray-800 flex justify-between items-center">
+                    <h3 class="text-xl font-fantasy text-white font-bold">셰리스 왕국</h3>
+                    <i class="fa-solid fa-chess-king text-indigo-400 text-xl"></i>
+                </div>
+                <div class="p-6 space-y-4">
+                    <p class="text-sm text-gray-300 leading-relaxed">
+                        대륙에서 가장 강력하고 유서 깊은 왕국입니다. 고대 제국의 정통성을 계승하여 긍지와 명예를 중시하며, 강력한 왕실의 권위 아래 질서와 평화를 수호하고 있습니다.
+                    </p>
+                    <p class="text-sm text-gray-300 leading-relaxed">
+                        안개 낀 고풍스러운 도시들과 웅장한 성채들이 어우러진 셰리스는 문명과 전통이 살아 숨 쉬는 곳으로, 모험가들에게는 고대 유적 탐사의 기회가 열려 있는 땅이기도 합니다.
+                    </p>
+                </div>
+            </div>
+
+            <!-- 국가 3: 아스테인 -->
+            <div class="bg-dnd-dark rounded-xl border border-gray-800 hover:border-dnd-gold/50 transition-all duration-300 overflow-hidden group">
+                <div class="bg-gradient-to-r from-yellow-900/30 to-dnd-dark p-4 border-b border-gray-800 flex justify-between items-center">
+                    <h3 class="text-xl font-fantasy text-dnd-gold font-bold">황금의 아스테인</h3>
+                    <i class="fa-solid fa-coins text-yellow-500 text-xl"></i>
+                </div>
+                <div class="p-6 space-y-4">
+                    <p class="text-sm text-gray-300 leading-relaxed">
+                        뜨거운 태양과 정열이 넘치는 부유한 왕국입니다. 과거 거친 바다를 호령하던 이들이 세운 나라답게, 자유분방하고 활기찬 분위기가 특징입니다.
+                    </p>
+                    <p class="text-sm text-gray-300 leading-relaxed">
+                        막대한 부를 바탕으로 화려한 문화와 건축 양식을 꽃피웠으며, '황금의 아스테인'이라는 명성에 걸맞게 어디를 가나 활력과 기회가 넘쳐나는 곳입니다.
+                    </p>
+                </div>
+            </div>
+
+            <!-- 국가 4: 프레아 -->
+            <div class="bg-dnd-dark rounded-xl border border-gray-800 hover:border-blue-500/50 transition-all duration-300 overflow-hidden group">
+                <div class="bg-gradient-to-r from-blue-900/30 to-dnd-dark p-4 border-b border-gray-800 flex justify-between items-center">
+                    <h3 class="text-xl font-fantasy text-white font-bold">파도의 프레아</h3>
+                    <i class="fa-solid fa-ship text-blue-400 text-xl"></i>
+                </div>
+                <div class="p-6 space-y-4">
+                    <p class="text-sm text-gray-300 leading-relaxed">
+                        바다와 함께 살아가는 지혜로운 상인들의 나라입니다. 뛰어난 조선술과 항해술을 바탕으로 대륙의 모든 물자가 오가는 무역의 중심지가 되었습니다.
+                    </p>
+                    <p class="text-sm text-gray-300 leading-relaxed">
+                        국제 무역 협정인 '파도의 협약'을 주도하며 바다의 질서를 유지하고, 다양한 문화가 공존하는 개방적이고 혁신적인 분위기를 자랑합니다.
+                    </p>
+                </div>
+            </div>
+
+        </div>
+
+        <!-- 추가 설정: 파도의 협약 & 강철닻 해협 -->
+        <div class="bg-dnd-grey/40 rounded-xl p-8 border border-twilight-accent/20 relative overflow-hidden">
+            <div class="absolute top-0 right-0 w-32 h-32 bg-twilight-accent/10 rounded-full blur-2xl -z-10"></div>
+            
+            <div class="grid md:grid-cols-2 gap-12">
+                <div>
+                    <h4 class="text-lg font-bold text-twilight-accent mb-3"><i class="fa-solid fa-handshake-simple mr-2"></i>파도의 협약</h4>
+                    <p class="text-sm text-gray-400 leading-relaxed">
+                        거친 바다 위에서도 서로의 신뢰를 지키기 위해 맺어진 평화로운 약속입니다. 
+                        이 협약 덕분에 모험가들과 상인들은 각국의 항구에서 안전하게 쉬어가며, 진귀한 물건들을 자유롭게 거래할 수 있습니다.
+                    </p>
+                </div>
+                <div>
+                    <h4 class="text-lg font-bold text-dnd-red mb-3"><i class="fa-solid fa-anchor mr-2"></i>강철닻 해협</h4>
+                    <p class="text-sm text-gray-400 leading-relaxed">
+                        대륙의 배들이 오가는 가장 활기찬 바닷길입니다. 
+                        수평선 너머로 펼쳐진 푸른 바다는 모험가들에게 새로운 만남과 발견의 기회를, 때로는 잊혀진 전설 속 보물을 찾을 수 있는 설렘을 선사합니다.
+                    </p>
                 </div>
             </div>
         </div>
         
         <div class="text-center mt-12">
-            <a href="#rules" class="inline-block text-gray-400 hover:text-white transition-colors">
-                모험 준비하러 가기 <i class="fa-solid fa-arrow-right ml-2"></i>
+            <!-- 버튼: 다음 챕터(캐릭터 소개)로 이동 -->
+            <a href="#characters" class="inline-block text-gray-400 hover:text-white transition-colors">
+                등장인물 만나러 가기 <i class="fa-solid fa-arrow-right ml-2"></i>
             </a>
         </div>
     </div>
-
 </section>
-
-
-
-
